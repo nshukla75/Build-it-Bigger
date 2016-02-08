@@ -12,12 +12,6 @@ public class JokeDisplayActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_joke_display);
-        String joke = getIntent().getStringExtra(INTENT_JOKE);
-        TextView textViewJoke = (TextView) findViewById(R.id.textview_joke);
-        if (joke != null && joke.length() != 0) {
-            textViewJoke.setText(joke);
-        }
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
