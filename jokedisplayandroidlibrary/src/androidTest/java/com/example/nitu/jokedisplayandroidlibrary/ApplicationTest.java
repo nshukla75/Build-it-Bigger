@@ -1,4 +1,4 @@
-package com.example.nitu.jokedisplayandroidlibrary;
+package com.udacity.gradle.jokedisplay;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

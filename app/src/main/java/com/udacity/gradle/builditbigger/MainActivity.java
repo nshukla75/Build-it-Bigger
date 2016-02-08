@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.udacity.gradle.jokes.JokeTelling;
-import com.example.nitu.jokedisplayandroidlibrary.JokeDisplayActivity;
+import com.udacity.gradle.jokedisplay.JokeDisplayActivity;
 
 
 public class MainActivity extends AppCompatActivity {
