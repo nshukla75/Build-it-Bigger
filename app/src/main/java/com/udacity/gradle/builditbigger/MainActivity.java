@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.JokeTelling;
+import com.udacity.gradle.jokes.JokeTelling;
 import com.example.nitu.jokedisplayandroidlibrary.JokeDisplayActivity;
 
 
