@@ -25,6 +25,6 @@ dependencies {
     // Added for AdMob
     compile 'com.google.android.gms:play-services-ads:7.5.0'
     compile 'com.android.support:support-v4:22.2.0'
-    compile project(':jokelib')
     compile project(':jokedisplayandroidlibrary')
+    compile project(path: ':backend', configuration: 'android-endpoints')
 }

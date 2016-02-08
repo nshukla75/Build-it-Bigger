@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.udacity.gradle.jokes.JokeTelling;
 import com.udacity.gradle.jokedisplay.JokeDisplayActivity;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -17,7 +16,7 @@ import com.google.android.gms.ads.AdView;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class MainActivityFragment extends Fragment implements JokeListener{
 
     public MainActivityFragment() {
     }
@@ -30,7 +29,7 @@ public class MainActivityFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tellJoke();
+                startJokeActivity();
             }
         });
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
@@ -43,11 +42,14 @@ public class MainActivityFragment extends Fragment {
         mAdView.loadAd(adRequest);
         return root;
     }
-    public void tellJoke(){
+    @Override
+    public void onReceived(String joke) {
         Intent intent = new Intent(getActivity(), JokeDisplayActivity.class);
-        JokeTelling jokeTelling = new JokeTelling();
-        intent.putExtra(JokeDisplayActivity.INTENT_JOKE, jokeTelling.getRandomJoke());
+        intent.putExtra(JokeDisplayActivity.INTENT_JOKE, joke);
         this.startActivity(intent);
         //Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
+    }
+    public void startJokeActivity(){
+        new EndpointsAsyncTask().execute(this);
     }
 }
