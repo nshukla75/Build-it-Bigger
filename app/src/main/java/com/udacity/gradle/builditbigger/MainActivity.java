@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportFragmentManager().beginTransaction().
-                add(R.id.fragment,new MainActivityFragment()).commit();
-
     }
 
 
@@ -47,14 +44,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void tellJoke(View view){
-        Intent intent = new Intent(this, JokeDisplayActivity.class);
-        JokeTelling jokeTelling = new JokeTelling();
-        intent.putExtra(JokeDisplayActivity.INTENT_JOKE, jokeTelling.getRandomJoke());
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        this.startActivity(intent);
-        //Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
-    }
+
 
 
 }
