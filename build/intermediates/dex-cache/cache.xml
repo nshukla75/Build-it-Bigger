@@ -2,18 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\jokelib\build\libs\jokelib.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="54e1b535b1c00905b6c0a1f709b78348dcbd3a5c">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\jokelib-7e12109513cf40e51b524b9628118275514716ad.jar" />
-    </item>
-    <item
         jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a78183f30e769a98ab4820794f597763088d3065">
         <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-d95da985384159a2eb057f033a58cc2e78c7ec25.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\build-it-bigger\jokedisplayandroidlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="27658e16573d6e47c4180bcf3a3850e98edbcbe9">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-7c6bce4e41ad19729d8c6986aed371018dc81593.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-6c50e907e41a4979de1847bf56bcfc561b83b0a3.jar" />
     </item>
     <item
         jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
@@ -23,18 +30,11 @@
         <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-8aaa21fa271fadee48969d1917f030c89d639a0d.jar" />
     </item>
     <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\jokelib\build\libs\jokelib.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-1c8457d778ec4f2ea04f1f93376362d2276c7c41.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-aa0e34a95bb8135d94f5b107112293e31073b639.jar" />
+        sha1="54e1b535b1c00905b6c0a1f709b78348dcbd3a5c">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\jokelib-7e12109513cf40e51b524b9628118275514716ad.jar" />
     </item>
     <item
         jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
@@ -56,6 +56,13 @@
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
         <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-de8bb9dcb115be6d04ce379670a0ce0e828c32d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-1c8457d778ec4f2ea04f1f93376362d2276c7c41.jar" />
     </item>
 
 </items>
