@@ -2,130 +2,130 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-23b3a232aec157d81b768362aabc87d952588d50.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-d86f1b9fadfd180cf981194f181e46cbd25b49cb.jar" />
-    </item>
-    <item
         jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-d95da985384159a2eb057f033a58cc2e78c7ec25.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\build-it-bigger\jokedisplayandroidlibrary\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e88c05c4b8df31d5b94d0bb8ea9f6b30c118e85b">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-7c6bce4e41ad19729d8c6986aed371018dc81593.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-ddbe0d5ad16005b97e891a7352a9a1b25f1da793.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-66a3a92fe80b40263d0391c191ea41e077d4249e.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.0\6a21277d9bebe267b7ddee028b241eebc756c040\google-api-client-1.19.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\google-api-client-1.19.0-7826d1bc42b93c38c4ea10b0729f9285927d0641.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-92dbf7f8f0fc16223c1cb02c8c71d24e7e11c99a.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-edd07f917e6458bbf86271b44f19288a99a968cc.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-ff9fe0ac4e3ae7adef1cbb2924850293152d386d.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-1ae60827e5b6e0daeade1fae14555e2cf12859c8.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-8aaa21fa271fadee48969d1917f030c89d639a0d.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-8ecfc3a029a110ba38192774dd4026506760da7a.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.0\ba2aafb867f6af469f936ae76426cf0a280094bd\google-api-client-android-1.19.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.0-beef7c1bb5460dd407d105db8281138ac289068d.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-213574f7cac856d62a2723376ddd85bd1e1f1728.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\backend\build\libs\backend-android-endpoints.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17f63b2219a344887eb125be7b734cfdc897c580">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\backend-android-endpoints-9928911bb1b00d24974f28521c75e9cb1701d871.jar" />
-    </item>
-    <item
-        jar="C:\Users\nitus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-547fa70770f0cf2e048bbd5c4c4afa63ad4479de.jar" />
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\classes-d95da985384159a2eb057f033a58cc2e78c7ec25.jar" />
     </item>
     <item
         jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\debug\classes-1c8457d778ec4f2ea04f1f93376362d2276c7c41.jar" />
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\classes-1c8457d778ec4f2ea04f1f93376362d2276c7c41.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.0\ba2aafb867f6af469f936ae76426cf0a280094bd\google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\google-api-client-android-1.19.0-beef7c1bb5460dd407d105db8281138ac289068d.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\guava-jdk5-13.0-23b3a232aec157d81b768362aabc87d952588d50.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\support-annotations-22.2.0-9a26f6bcb5481cd6ddc149df63055d845f026f94.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\internal_impl-22.2.0-19c00ff405c5f9abad0461a10d09d4c2d38af6db.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\google-oauth-client-1.19.0-1ae60827e5b6e0daeade1fae14555e2cf12859c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\google-http-client-1.19.0-ff9fe0ac4e3ae7adef1cbb2924850293152d386d.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.0\6a21277d9bebe267b7ddee028b241eebc756c040\google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\google-api-client-1.19.0-7826d1bc42b93c38c4ea10b0729f9285927d0641.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\jsr305-1.3.9-92dbf7f8f0fc16223c1cb02c8c71d24e7e11c99a.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\google-http-client-android-1.19.0-66a3a92fe80b40263d0391c191ea41e077d4249e.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\backend\build\libs\backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c96dea5f4278500d0ddecba5bc871c54f6112ee9">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\backend-android-endpoints-9928911bb1b00d24974f28521c75e9cb1701d871.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\classes-8aaa21fa271fadee48969d1917f030c89d639a0d.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\classes-de8bb9dcb115be6d04ce379670a0ce0e828c32d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\build-it-bigger\jokedisplayandroidlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c7a01f86b80e46f6c4a4ef0dfdbc8119ae3c1c2d">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\classes-7c6bce4e41ad19729d8c6986aed371018dc81593.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\classes-6c50e907e41a4979de1847bf56bcfc561b83b0a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\google-http-client-jackson2-1.19.0-213574f7cac856d62a2723376ddd85bd1e1f1728.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitus\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\nitus\AndroidStudioProjects\build-it-bigger\app\build\intermediates\pre-dexed\paid\debug\jackson-core-2.1.3-ddbe0d5ad16005b97e891a7352a9a1b25f1da793.jar" />
     </item>
 
 </items>
