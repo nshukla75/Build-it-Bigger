@@ -11,8 +11,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class JokeTest extends ApplicationTestCase<Application> implements JokeListener {
 
-    CountDownLatch signal;
-    String joke;
+    private CountDownLatch signal;
+    private String joke;
 
     public JokeTest() {
         super(Application.class);
