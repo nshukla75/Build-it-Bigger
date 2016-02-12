@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.udacity.gradle.jokedisplay.JokeDisplayActivity;
 
 
@@ -19,6 +20,9 @@ import com.udacity.gradle.jokedisplay.JokeDisplayActivity;
  */
 public class MainActivityFragment extends Fragment implements JokeListener{
 
+    private InterstitialAd mInterstitialAd;
+    private String mJoke;
+
     public MainActivityFragment() {
     }
 
@@ -26,12 +30,20 @@ public class MainActivityFragment extends Fragment implements JokeListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
-
+        mInterstitialAd = new InterstitialAd(getActivity());
+        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                startJokeActivity();
+            }
+        });
+        //loadInterstitialAd();
         Button button = (Button) root.findViewById(R.id.joke_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startJokeActivity();
+                fetchJoke();
             }
         });
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
@@ -44,14 +56,30 @@ public class MainActivityFragment extends Fragment implements JokeListener{
         mAdView.loadAd(adRequest);
         return root;
     }
+
+    private void loadInterstitialAd() {
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        mInterstitialAd.loadAd(adRequest);
+    }
+
     @Override
     public void onReceived(String joke) {
-        Intent intent = new Intent(getActivity(), JokeDisplayActivity.class);
-        intent.putExtra(JokeDisplayActivity.INTENT_JOKE, joke);
-        this.startActivity(intent);
-        //Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
+        mJoke = joke;
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+            startJokeActivity();
+        }
     }
     private void startJokeActivity(){
+        Intent intent = new Intent(getActivity(), JokeDisplayActivity.class);
+        intent.putExtra(JokeDisplayActivity.INTENT_JOKE, mJoke);
+        this.startActivity(intent);
+    }
+    public void fetchJoke(){
+        loadInterstitialAd();
         new EndpointsAsyncTask().execute(this);
     }
 }
