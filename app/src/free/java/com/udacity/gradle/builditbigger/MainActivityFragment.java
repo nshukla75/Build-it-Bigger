@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -19,7 +20,7 @@ import com.udacity.gradle.jokedisplay.JokeDisplayActivity;
  * A placeholder fragment containing a simple view.
  */
 public class MainActivityFragment extends Fragment implements JokeListener{
-
+    private ProgressBar mSpinner;
     private InterstitialAd mInterstitialAd;
     private String mJoke;
 
@@ -46,6 +47,7 @@ public class MainActivityFragment extends Fragment implements JokeListener{
                 fetchJoke();
             }
         });
+        mSpinner = (ProgressBar) root.findViewById(R.id.progressBar);
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
@@ -66,6 +68,7 @@ public class MainActivityFragment extends Fragment implements JokeListener{
 
     @Override
     public void onReceived(String joke) {
+        mSpinner.setVisibility(View.INVISIBLE);
         mJoke = joke;
         if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
@@ -80,6 +83,7 @@ public class MainActivityFragment extends Fragment implements JokeListener{
     }
     public void fetchJoke(){
         loadInterstitialAd();
+        mSpinner.setVisibility(View.VISIBLE);
         new EndpointsAsyncTask().execute(this);
     }
 }
