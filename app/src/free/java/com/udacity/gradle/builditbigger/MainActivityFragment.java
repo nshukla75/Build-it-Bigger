@@ -39,7 +39,7 @@ public class MainActivityFragment extends Fragment implements JokeListener{
                 startJokeActivity();
             }
         });
-        //loadInterstitialAd();
+        loadInterstitialAd();
         Button button = (Button) root.findViewById(R.id.joke_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
