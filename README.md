@@ -94,7 +94,7 @@ To receive "exceeds specifications", your app must fully implement all of the fo
 * The app displays a loading indicator while the joke is being fetched from the server.
 * The root build.gradle file contains a task that will start up the GCE development server, run all Android tests, then shutdown the development server.
 
-#Execution Instruction
+#Execution Instructions
 Requires: Android Studio v1.5.0+
 
 Dependencies:
